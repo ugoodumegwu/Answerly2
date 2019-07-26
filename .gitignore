@@ -1,0 +1,10 @@
+*.pyc
+*~
+__pycache__
+/static
+db_answerly2
+.DS_Store
+/Lib
+/Scripts
+
+

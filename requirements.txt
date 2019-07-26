@@ -1,0 +1,5 @@
+django==2.2.3
+psycopg2==2.8.3
+django-markdownify==0.8.0
+django-crispy-forms==1.7.2
+coverage==4.5.3

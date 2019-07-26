@@ -1,0 +1,13 @@
+{% load markdownify %}
+{% load crispy_forms_tags %}
+
+
+<div class = "question">
+    <div class="meta col-sm-12">
+        <h1> {{ question.title }} </h1>
+    </div>
+    <div class="body col-sm-12">
+        <h5>{{ question.question|markdownify }}</h5>
+        <small>-->Asked by {{ question.user }} on {{ question.created_on }}</small>
+    </div>
+</div>
