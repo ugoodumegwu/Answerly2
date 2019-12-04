@@ -1,4 +1,4 @@
-django==2.2.3
+django==2.2.8
 psycopg2==2.8.3
 django-markdownify==0.8.0
 django-crispy-forms==1.7.2
